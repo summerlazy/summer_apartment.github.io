@@ -1,0 +1,247 @@
+/* uviversal*/ 
+html {
+    font-size: 16px;
+}
+h1 {
+    font-family:'Old Standard TT';
+    font-size: 4rem;
+}
+h2{
+    font-family: 'Noto Serif Display';
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+h3{
+    font-family:'Quicksand';
+    font-weight: lighter;
+}
+
+/* Nav Bar*/
+
+header {
+    width: 100%;
+    height: 3rem;
+    background-color:rgb(30, 34, 43);
+}
+.logo {
+    height: 1.8rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10%;
+    position: absolute;
+    margin-top: 0.4rem;
+    margin-left: 0.5rem;
+    padding: 0.2rem;
+    text-align: center;
+    opacity: 0.8;
+}
+.logo p {
+    font-family:'Noto Serif Display';
+    font-size: 0.8rem;
+    font-weight: 800;
+    line-height: 1px;
+    color: rgb(0, 0, 0);
+    margin: 1rem;
+
+}
+
+div ul {
+    display: flex;
+    position: relative;
+    float: right;
+    
+}
+div ul li {
+    list-style: none;
+    margin-right: 1.5rem;
+    font-family: 'Quicksand';
+}
+div ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+div ul li a:hover{
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: white;
+    transition: 0.3s;
+}
+
+/* Mission Statement*/
+.container-mission{
+    width: 100%;
+    height: 20rem;
+    background-image: url('https://www.frasersproperty.com/content/dam/frasers-hospitality/english/properties/australia/perth/fraser-suites-perth/images/hero-images/Fraser%20Suites%20Perth_One-Bedroom%20Executive.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 10rem;
+}
+.container-mission #mission{
+    color:rgb(255, 252, 247);
+    background-color:rgb(0, 31, 78);
+    opacity: 0.8;
+    width: 100%;
+
+}
+.container-mission #mission h1{
+font-size: 2rem;
+padding-top: 2rem;
+}
+.container-mission #mission h3{
+    font-size: 1.3rem;
+    padding-bottom: 2rem;
+}
+
+/* Products*/
+
+.container-products{
+    margin-top: 1rem;
+    background-color: rgb(198, 198, 198);
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+
+    text-align: center;
+}
+#features{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.container-products .center{
+    width: 22rem;
+    height: 30rem;
+    background-color: rgb(255, 255, 255);
+    margin: 0px 1.25rem;
+    text-align: center;
+    
+}
+.img-container{
+    height: 75%;
+    width:90%;
+    border: 1px solid rgb(205, 205, 205);
+    margin: 0.5rem auto;
+    overflow: hidden;
+    background-color:white;
+    position: relative;
+}
+.img-container img{
+    width:auto;
+    height:100%;
+    display: block;
+    position: absolute;
+    justify-content: center;
+}
+.img-container .a{
+    display: block;
+    position: absolute;
+    width: 100%;
+}
+.img-container:hover img{
+    opacity: 0.5;
+    transition: 0.5s;
+}
+.container-products .content h3{
+    font-weight: 500;
+    font-family: 'Noto Serif Display';
+    line-height: 0.4rem;
+}
+.container-products .content h4{
+    font-family: 'Quicksand';
+    font-weight: 300;
+    line-height: 5px;
+
+}
+
+/* Team*/
+.container-team {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+}
+#team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.container-team .center{
+    background-color: rgb(37, 65, 121);
+    width: 22rem;
+    height: 28rem;
+    margin: 1rem 2rem;
+}
+.center .img-container{
+    justify-content: center;
+}
+
+#ryan{
+    height: 100%;
+    object-position: -100px 50%;
+}
+#summer {
+    width: 100%;
+    height: auto;
+}
+
+.container-team h3{
+    font-family:  'Noto Serif Display';
+    font-weight: 700;
+}
+.container-team h4{
+    font-family: 'Quicksand';
+    font-weight: 400;
+    font-size: 1.1rem;
+
+}
+
+/* Google Map*/
+.ggmap{
+    width: 100%;
+}
+iframe{
+    display: flex;
+    margin: 0 auto;
+}
+nav .homepage{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 1rem auto;
+}
+nav .homepage h3{
+    font-weight: 600;
+    color: black;
+    text-decoration: underline;
+}
+nav .homepage:hover h3{
+    font-weight: 600;
+}
+/*footer */
+.container-footer {
+    width: 100%;
+    text-align: center;
+    background-color: rgb(54, 54, 54);
+    color: white;
+    display:flexbox;
+
+}
+.container-footer span{
+    line-height: 2rem;
+    margin: 1rem 1rem;
+}
+.container-footer h2{
+    font-size: 1.2rem;
+}
+.container-footer h5{
+    font-size: 1rem;
+    position: absolute;
+    right: 4rem;
+    margin-bottom: 1rem;
+    line-height: 0.1rem;
+}
